@@ -3,7 +3,11 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['airbnb', 'plugin:jsx-a11y/recommended'],
+  extends: [
+    'airbnb',
+    'plugin:jsx-a11y/recommended',
+    'plugin:@next/next/recommended',
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
